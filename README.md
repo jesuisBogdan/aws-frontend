@@ -1,6 +1,6 @@
 # shop-vue-vuex-cloudfront
 
-- [CloudFrontURL](https://d1tlahi24dm39c.cloudfront.net) page should load
+- [CloudFrontURL](https://d1az8b529k2h4g.cloudfront.net/) page should load
 - [S3-bucket-html](https://new-s3-shop-react-redux-cloudfront.s3.amazonaws.com/index.html) page should display Access Denied
 
 See `develop` branch for development
