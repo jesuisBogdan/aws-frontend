@@ -5,6 +5,10 @@ import { Product } from '@/models/product';
 
 import productList from './productList.json';
 
+const setToken = async () => {
+	localStorage.setItem('credentials', 'jesuisBogdan:TEST_PASSWORD')
+}
+
 const fetchAvailableProducts = async (): Promise<Product[]> => {
 	return axios
 		.get(`${API_PATHS.product}/products`)
@@ -51,4 +55,5 @@ export const productApi = {
 	fetchProducts,
 	fetchProductById,
 	saveProduct,
+	setToken
 };
